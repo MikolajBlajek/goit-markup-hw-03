@@ -1,3 +1,4 @@
+
  body { 
     font-family: Roboto; sans-serif; 
     color: #212121;
@@ -16,7 +17,8 @@
     color: #2196F3;
 }
 
-.second-half-webstudio {
+.second-half-webstudio { 
+    display: inline-block;
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -24,7 +26,8 @@
     letter-spacing: 0.03em;
     color: #212121;
 }
-.second-half-webstudio2 {
+.second-half-webstudio2 { 
+    display: block;
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -32,7 +35,9 @@
     letter-spacing: 0.03em;
     color: #fff;
 }
-.link-style {   
+.link-style-agency, 
+.link-style-portfolio,
+.link-style-contact {   
     text-decoration: none; 
     font-weight: 500; 
     font-size: 14px;   
@@ -50,7 +55,9 @@
     letter-spacing: 0.03em;
 } 
  
-.link-contact:hover, .link-style:hover {  
+.link-style-agency:hover, 
+.link-style-portfolio:hover,
+.link-style-contact:hover {  
     color: #2196F3;
 } 
  
@@ -95,12 +102,8 @@
     color: #757575;
 } 
 
-.background-foot {
-    background-color: #2f303a;
-    width: 1600px; 
-    height: 252px; 
-    left: 0px;
-    top: 2097px;
+.container-footer {
+    background-color: #2f303a; 
 }
 
 .adress-footer1 {  
@@ -131,17 +134,12 @@
     letter-spacing: 0.03em;  
 } 
  
-.large-text { 
-    width: 1600px; 
-    height: 600px;
-    left: 0px; 
-    top:80px;
+.large-text {  
     font-weight: 900;
     font-size: 40px;
     line-height: 3.75em;
     letter-spacing: 0.06em;
     color: #ffff;  
-    background-color: #2f303a;
 }
 
 .list-text1 { 
