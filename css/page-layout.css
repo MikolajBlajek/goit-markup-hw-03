@@ -6,8 +6,6 @@
 
 body{  
     width: 1600px;
-    height: 2349px;
-
 }
 
 /* kontener menu z nawigacją - wspólna dla wszystkich kart*/
@@ -34,13 +32,12 @@ body{
     height: 31px; 
     display: flex; 
     justify-content: space-between; 
-    align-items: baseline;
+    padding: 0; 
 } 
   
 .link-style-agency, .link-style-portfolio{
     padding-right: 46px;
 }
-
 
 .link{  
     display: flex;
@@ -53,7 +50,12 @@ body{
 } 
   
 .contact-link { 
-    justify-content: space-between;
+    justify-content: space-between; 
+    width: 345px; 
+} 
+ 
+.link-contact{ 
+    padding-right: 42px;
 }
 
 /* kontener z dużym tekstem i przyciskiem*/ 
@@ -61,10 +63,10 @@ body{
 .container-first{ 
     background-color: #2f303a; 
     color: #FFFFFF; 
-    height: 300px;
     top: 80px;
     padding: 200px 452px 280px 452px;
-    text-align: center;
+    text-align: center; 
+    margin: auto;
 } 
   
 .large-text{ 
@@ -143,13 +145,15 @@ footer{
 }
 
 .container-footer{
-    height: 252px; 
+    height: auto; 
     margin-left: 215px; 
-    margin-right: 215px;
+    margin-right: 215px;  
+    padding-top: 35px; 
+ 
 }
  
-.brand-logo-footer{ 
-    display: flex;
+.list-adress{ 
+    padding-left: 0;
 }
 
 /* page layout portfolio*/ 
@@ -187,7 +191,6 @@ footer{
     padding: 0;
     flex-basis: calc((100% - 30px) / 3);
     margin: 0;
-    
 }  
  
 .info-works{ 

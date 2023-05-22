@@ -4,15 +4,16 @@
     color: #212121;
  }  
   
-.brand-logo { 
+.brand-logo, .brand-logo-footer { 
     text-decoration:none;
  }
 
-.first-half-webstudio {
+.first-half-webstudio { 
+    display: inline-block;
     font-family:Raleway;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.93em;
+    line-height: 2.25em;
     letter-spacing: 0.03em;
     color: #2196F3;
 }
@@ -26,14 +27,15 @@
     letter-spacing: 0.03em;
     color: #212121;
 }
-.second-half-webstudio2 { 
-    display: block;
+.second-half-webstudio2 {
+    display: inline-block;
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
     line-height: 2.25em;
     letter-spacing: 0.03em;
-    color: #fff;
+    color: #fff; 
+    
 }
 .link-style-agency, 
 .link-style-portfolio,
@@ -68,13 +70,19 @@
     font-size: 16px;
     line-height: 1.88em;
     cursor: pointer; 
+    border-radius: 4px; 
+    box-shadow: 0px 4px 4px rgba(0,0,0, 0.15); 
+    border: 0;
 }
 
 .bth2 {
     font-weight: 500; 
     font-size: 16px; 
     line-height: 1.88em; 
-    cursor: pointer;
+    cursor: pointer; 
+    background-color: rgba(245, 244, 250, 1) ; 
+    border: #fff; 
+    border-radius: 4px;
 }  
 
 .bth2:hover, .bth2:focus { 
@@ -115,29 +123,11 @@
     line-height: 1.5em;
     letter-spacing: 0.03em;
 }
-.adress-footer2 {  
-    font-style: normal;
-    text-decoration: underline;
-    color: rgb(255, 255, 255, 0.6);
-    font-family: Raleway;
-    font-size: 14px;
-    line-height: 1.5em;
-    letter-spacing: 0.03em;
-} 
-.adress-footer3 { 
-    font-style: normal;
-    text-decoration: none;
-    color: rgb(255, 255, 255, 0.6);
-    font-family: Raleway;
-    font-size: 14px;
-    line-height: 1.5em;
-    letter-spacing: 0.03em;  
-} 
- 
+
 .large-text {  
     font-weight: 900;
     font-size: 40px;
-    line-height: 3.75em;
+    line-height: 1.75em;
     letter-spacing: 0.06em;
     color: #ffff;  
 }
@@ -176,5 +166,3 @@
     color: #757575;
 } 
  
-
-     
