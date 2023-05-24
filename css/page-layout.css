@@ -22,7 +22,7 @@ body{
    display: flex; 
    justify-content: space-between;
    align-items: baseline; 
-   margin: auto; 
+   margin-left: 215px; 
    padding: 0;
 
 } 
@@ -55,7 +55,7 @@ body{
 } 
  
 .link-contact{ 
-    padding-right: 42px;
+    padding-right: 40px;
 }
 
 /* kontener z dużym tekstem i przyciskiem*/ 

@@ -1,18 +1,19 @@
 
  body { 
-    font-family: "Roboto"; sans-serif; 
+    font-family:"Roboto"; sans-serif; 
     color: #212121;
  }  
   
 .brand-logo, .brand-logo-footer { 
-    text-decoration:none;
+    text-decoration:none; 
+    display: flex;
  }
 
 .first-half-webstudio { 
     display: inline-block;
     font-family:Raleway;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 26px; 
     line-height: 2.25em;
     letter-spacing: 0.03em;
     color: #2196F3;
@@ -39,7 +40,8 @@
 }
 .link-style-agency, 
 .link-style-portfolio,
-.link-style-contact {   
+.link-style-contact {    
+    font-family: Roboto;
     text-decoration: none; 
     font-weight: 500; 
     font-size: 14px;   
@@ -142,7 +144,7 @@
 .list-text2 { 
     font-size: 14px;
     line-height: 1.71em;
-    letter: spacing 0.03em;; 
+    letter-spacing 0.03em;; 
     color: #757575;
 } 
 
